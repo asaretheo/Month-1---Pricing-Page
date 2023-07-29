@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800;900&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: hsl(240, 78%, 98%);
+  background-image: url(images/bg-top.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.pricing-table {
+  display: flex;
+  justify-content: center;
+}
+
+.heading {
+  margin: 50px 0px;
+}
+
+.basic .amount,
+.master .amount {
+  color: hsl(232, 13%, 33%);
+}
+
+.table-title {
+  font-weight: 400;
+}
+
+.basic,
+.professional,
+.master {
+  width: 300px;
+  background-color: white;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 300px;
+  color: hsl(232, 13%, 33%);
+}
+
+.amount {
+  height: 40px;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+td {
+  padding: 15px 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+}
+
+.professional {
+  padding-top: 50px;
+  height: 570px;
+  border-radius: 10px 10px 10px 10px;
+  background-image: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+}
+.basic,
+.master {
+  margin-top: 50px;
+  height: 550px;
+}
+
+.professional td {
+  color: white;
+}
+
+.professional .table-border {
+  border-top: solid 0.2px hsl(234, 14%, 74%);
+}
+
+.basic .table-border,
+.master .table-border {
+  border-top: solid 0.2px hsl(234, 14%, 74%);
+}
+
+.basic {
+  border-radius: 10px 0px 0px 10px;
+}
+
+.master {
+  border-radius: 0px 10px 10px 0px;
+}
+
+button {
+  padding: 10px 60px;
+  margin-bottom: 20px;
+  border: none;
+  color: white;
+  border-radius: 7px;
+  background-image: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+  font-weight: bold;
+}
+
+.professional button {
+  padding: 10px 60px;
+  margin-bottom: 20px;
+  border: none;
+  color: hsl(232, 13%, 33%);
+  border-radius: 7px;
+  border-color: hsl(240, 78%, 98%);
+  background: hsl(240, 78%, 98%);
+  font-weight: bold;
+}
+
+
